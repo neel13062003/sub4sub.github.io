@@ -1,0 +1,461 @@
+             .mainresponsive 
+			{
+				padding:0px 10px;
+				float:left;
+				width:50%;
+			}
+			
+			
+			
+			.responsive1 
+			{
+				width:100%;					
+				margin-bottom:1px;	
+			}
+			
+			
+			@media only screen and (max-width:1200px) 
+			{
+				.search
+				{
+					width:100%;
+					display:flex;
+				}
+				.btn
+				{
+					width:100%;
+				}
+				nav
+				{
+					flex-direction: column;
+					height:8.4rem;
+				}
+				
+			}
+			@media only screen and (max-width:950px) 
+			{
+				.search
+				{
+					width:100%;
+					display:flex;
+				}
+				.btn
+				{
+					width:100%;
+				}
+				nav
+				{
+					flex-direction: column;
+					height:8.5rem;
+				}
+			}
+			@media only screen and (max-width:800px) 
+			{
+				.search
+				{
+					width:80%;
+					display:flex;
+				}
+				.search input
+				{
+	                max-width:100%;
+	                margin: 0px 10px 0px -60px;
+	                padding: 0 5px;
+                }
+				.btn
+				{
+					width:95%;
+				}
+				nav
+				{
+					flex-direction: column;
+					height:8.6rem;
+					min-width:100%;
+				}
+			}
+			@media only screen and (max-width:750px) 
+			{
+				.search
+				{
+					width:70%;
+					display:flex;
+				}	
+				.search input
+				{
+	                max-width:100%;
+	                margin: 0px 15px 0px 8px;
+	                padding: 0 5px;
+                }
+                .btn
+				{
+					width:95%;
+				}	
+                nav
+				{
+					flex-direction: column;
+					height:8rem;
+					min-width:100%;
+				}
+					
+			}
+			
+			@media only screen and (max-width:500px) 
+			{
+				.search
+				{
+					width:70%;
+					
+					display:flex;
+				}
+				.search input
+				{
+	                max-width:90%;
+					height:38px;
+	                margin: 0 10px 10px -15px;
+	                padding: 0 5px;
+                }
+				
+                .btn
+				{
+					width:81%;
+					height:35px;
+					margin:0px 10px 0px 0px;
+				}	
+                nav
+				{
+					flex-direction: column;
+					height:11rem;
+					min-width:100%;
+				}	
+                .nav-right
+                {
+					flex-direction: column;
+				}	
+                .nav-user-icon
+                {
+					margin-left:10px;
+				}	
+                .nav-user-icon img
+                {
+					margin-bottom:-10px;
+				}					
+			}
+			
+			
+			
+			nav ul li{
+	          list-style:none;
+	          padding:0 20px;
+	          font-size:20px;
+            }
+			
+			
+			@media only screen and (max-width:1200px) 
+			{
+				nav ul li{
+	          padding:0 20px;
+	          font-size:20px;
+              }	
+			  
+			}
+			@media only screen and (max-width:950px) 
+			{
+				nav ul li{
+	          padding:0 15px;
+	          font-size:20px;
+              }	
+			  
+			}
+			@media only screen and (max-width:700px) 
+			{
+				nav ul li{
+	          padding:0 8px;
+	          font-size:20px;
+              }
+				
+			}
+			
+			@media only screen and (max-width:500px) 
+			{
+				nav ul li{
+	          padding:0 10px;
+	          font-size:20px;
+              }	
+			}
+			
+			
+			.clearfix:after 
+			{
+				content:"";
+				display:table;
+				clear:both;
+			}
+			
+			
+			@media only screen and (max-width:700px) 
+		   {
+				.mainresponsive 
+				{
+					width:100%;
+					margin:6px 0;
+				}				
+			}
+			
+			
+			
+			
+			
+			
+			/*Poster Adjustment*/
+			.responsive 
+			{
+				padding:0 20px;
+				float:center;
+				justify-content:space-between;
+				text-align:center;	
+				width:100%;
+				margin:5px 0 5px 0;
+			}
+			
+			
+			@media only screen and (max-width:1200px) 
+			{
+				.logo
+				{
+					width:100%;
+				}
+				
+			}
+			@media only screen and (max-width:950px) 
+			{
+				.logo
+				{
+					width:45%;
+					margin-top:2px;
+                 	margin-bottom:2px;
+	                margin-right:20px;
+					margin-left:-25%;
+				}
+			}
+			@media only screen and (max-width:700px) 
+			{
+				
+				.logo
+				{
+					width:35%;
+					margin-top:2px;
+                 	margin-bottom:2px;
+	                margin-right:20px;
+					margin-left:0%;
+				}
+			}
+			@media only screen and (max-width:500px) 
+			{
+				
+				.logo
+				{
+					width:30%;
+					height:33%;
+					margin-top:1px;
+                 	margin-bottom:0px;
+	                margin-right:0px;
+					margin-left:3%;		
+				}
+			}
+			
+			
+			
+			
+			
+			
+			.responsive2 
+			{
+				padding:50px 30px;
+				float:left;
+				width:33.3%;
+				background-color:#ECEFF1;
+			}
+			
+			
+			
+			@media only screen and (max-width:1000px) 
+			{
+				.responsive2 
+				{
+					width:50%;
+					margin:6px 0;
+				}
+			}
+			@media only screen and (max-width:900px) 
+			{
+				.responsive2 
+				{
+					width:60%;
+					margin:6px 0;
+				}
+			}
+			@media only screen and (max-width:700px) 
+			{
+				.responsive2 
+				{
+					width:70%;
+					margin:6px 0;
+				}
+			}
+			@media only screen and (max-width:600px) 
+			{
+				.responsive2 
+				{
+					width:85%;
+					margin:6px 0;
+				}
+			}
+			@media only screen and (max-width:500px) 
+			{
+				.responsive2 
+				{
+					width:100%;
+					margin:6px 0;
+				}
+			}
+			
+			
+			
+			
+			
+			
+			
+			@media only screen and (max-width:1200px) 
+			{
+				
+			}
+			
+			@media only screen and (max-width:800px) 
+			{
+				.container{
+	           flex-direction: column;
+               }
+			   .left-sidebar{ 
+	           position:relative;	
+	           align-self:flex-start;
+               }
+			   .imp-links a img{
+	           max-width:100%;
+	           margin-left:209px;
+               }
+			   
+			   .shortcut-links a img{
+	           max-width:100%;
+			   margin-left:209px;
+               }
+			   
+			   .shortcut-links p{
+            	margin:0px 0px 20px 80px;
+				font-size:1.4rem;
+               }
+
+               .imp-links p{
+				margin:0px 0px 20px 80px;
+				font-size:1.4rem;
+               }
+               #clickspan{
+	           margin:5px 0px 15px 305px;
+			   font-size:1.2rem;
+               }
+			}
+			
+			@media only screen and (max-width:770px) 
+			{
+				.container{
+	           flex-direction: column;
+               }
+			   .left-sidebar{ 
+	           position:relative;	
+	           align-self:flex-start;
+               }
+			   .imp-links a img{
+	           max-width:100%;
+	           margin-left:105px;
+               }
+			   
+			   .shortcut-links a img{
+	           max-width:105%;
+			   margin-left:110px;
+               }
+			   
+			   .shortcut-links p{
+            	margin:0px 0px 20px 109px;
+               }
+
+               .imp-links p{
+				margin:0px 0px 20px 109px;
+               }
+               #clickspan{
+	           margin:5px 0px 15px 215px;
+               }
+			}
+			
+			@media only screen and (max-width:500px) 
+			{
+				.container{
+	           flex-direction: column;
+               }
+			   .left-sidebar{ 
+	           position:relative;	
+	           align-self:flex-start;
+               }
+			   .imp-links a img{
+	           max-width:80%;
+	           margin-left:30px;
+               }
+			   
+			   .shortcut-links a img{
+	           max-width:80%;
+			   margin-left:30px;
+               }
+			   
+			   .shortcut-links p{
+            	margin:-20px 40px 20px 38px;
+               }
+
+               .imp-links p{
+	            /* margin:20px 38px;*/
+				margin:-20px 40px 20px 38px;
+               }
+               #clickspan{
+	           margin:5px 0px 15px 98px;
+               }
+			   
+
+			}
+			
+			
+			
+			
+			@media only screen and (max-width:1200px) 
+			{
+				
+			}
+			@media only screen and (max-width:950px) 
+			{
+			}
+			@media only screen and (max-width:700px) 
+			{
+				
+				
+			}
+			
+			@media only screen and (max-width:500px) 
+			{
+				div.text1{
+					padding:5px 0px 0px 0px;
+				}
+				div.text2{
+					
+				}
+			}
+			
+			
+			
+			
+			

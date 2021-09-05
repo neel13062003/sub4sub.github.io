@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@200&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'poppins', sans-serif;
+	box-sizing:border-box;	
+}
+
+
+:root{
+	--body-color:#efefef;
+	--nav-color:#1876f2;
+	--bg-color:#fff;
+}
+
+.dark-theme{
+	--body-color:#0a0a0a;
+	--nav-color:#000;
+	--bg-color:#000;	
+}
+
+body{
+	background:var(--body-color);
+	transition:background 0.3s;
+}
+
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	background:var(--nav-color);
+	padding:5px 8%;
+	position:sticky;
+	top:0;
+	z-index:100;
+	height:4.3rem;
+	font-size:20px;
+	max-width:100%;
+}
+
+nav ul{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+nav ul li{
+	list-style:none;
+	padding:0 20px;
+	font-size:20px;
+}
+
+nav ul li:hover{
+	list-style:none;
+	padding:0 20px; 
+	transform: scale(1.5);
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+nav ul li a:hover{
+	color:black;
+	font-weight: bold;
+}
+
+.logo{	
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-right:40px;
+	border-radius:20px;
+}
+
+.nav-left, .nav-right {
+	display:flex;
+	align-items:center;
+}
+
+.nav-left ul li{
+	list-style:none;
+	display:inline-block;
+}
+
+.search{
+	padding:5px;
+}
+
+.search input{
+     height:40px;
+	 border-radius:10px;
+	 width:400px;
+	 max-width:100%;
+	 margin: 0px 5px 0px 20px;
+}
+
+.btn{
+	 border:solid white;
+	 height: 40px;
+     width: 65px;
+	 max-width:100%;
+	 border-radius:15px;
+	 cursor:pointer;
+	 overflow:hidden;
+	 position:relative;
+}
+
+.btn:hover{
+	 font-weight:bold;
+	 color:solid white;
+	 transform: scale(1.3);
+	 border:solid white;
+	 height:40px;
+	 width:65px;
+	 border-radius:15px; 
+	 cursor:pointer;	 
+}
+
+/* Main Contanet */
+
+.desc1 a{
+	color:blue;
+	text-decoration: none;
+}
+
+#clickspan{
+	color:blue;
+	font-size:30px;
+}
+span a{
+	 text-decoration: none;
+}
+
+span p{
+	font-size:30px;
+	color:red;
+}
+
+footer{
+	height:8vh;
+	min-width:100%;
+	/*Above line responsive karvanu kam karse*/
+	font-size:20px;
+	background-color:var(--nav-color);
+	color:white;	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Castoro', serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
